@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Turlar</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Əlaqə</a></li>
+                <li>
+                    <select name="" id="">
+                        <option value="0">AZ</option>
+                        <option value="1">EN</option>
+                    </select>
+                </li>
+                <li><a href="#">Müraciət et</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- SLIDER -->
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="radio" id="slide1" checked>
+            <input type="radio" name="radio" id="slide2">
+            <input type="radio" name="radio" id="slide3">
+
+            <div class="slide s1">
+                <div class="s1-content">
+                    <h1>
+                        Büdcənizə uyğun müəyyən edəcəyiniz öz tur seçimlərinizi yaratmağı və fərdiləşdirməyi təklif edirik.
+                    </h1>
+                    <p>Öz turunu yaratmağa başla və unudulmaz səyahət planını qur!</p>
+                    <a href="#">Turunu yarat</a>
+                </div>
+
+                <div class="s1-img"><img src="img/slide1.png" alt=""></div>
+            </div>
+
+            <div class="slide s2">
+                <div class="s1-content">
+                    <h1>
+                        Sizləri turlarımızda görməkdən çox məmnun olarıq, sizinlə birlikdə maraqlı turlara
+                    </h1>
+                    <p>Öz turunu yaratmağa başla və unudulmaz səyahət planını qur!</p>
+                    <a href="#">Turunu yarat</a>
+                </div>
+
+                <div class="s1-img"><img src="img/slide2.png" alt=""></div>
+            </div>
+
+            <div class="slide s3">
+                <div class="s1-content">
+                    <h1>
+                        Sizləri turlarımızda görməkdən çox məmnun olarıq, sizinlə birlikdə maraqlı turlara
+                    </h1>
+                    <p>Turlarımız çox maraqlı və əyləncəli keçir,
+                        dayanma bizimlə səyahət et.</p>
+                    <a href="#">Turunu yarat</a>
+                </div>
+
+                <div class="s1-img"><img src="img/slide3.png" alt=""></div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label class="bar" for="slide1" onclick="currentSlide(1)"></label>
+            <label class="bar" for="slide2" onclick="currentSlide(2)"></label>
+            <label class="bar" for="slide3" onclick="currentSlide(3)"></label>
+        </div>
+    </div>
+
+
+    <!-- TURLAR -->
+    <main>
+        <h1 class="main-header">TURLARIMIZ</h1>
+        <span>&#139</span>
+        <span>&#155</span>
+
+        <section>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/card1.png" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>SAH DAG</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsum, nostrum ab esse sit voluptate architecto molestias tempore asperiores nemo, dolor atque culpa distinctio libero explicabo quis ipsam earum exercitationem.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/card2.png" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>Yanar dağ</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente at doloremque quidem, qui repudiandae unde, laboriosam officia perspiciatis, ullam natus omnis minus commodi. Debitis iste, nulla rem eius maxime animi!
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/card3.png" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>Quba gəzintisi</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus sed tempore odio non quisquam quod earum saepe sint. Laudantium tenetur nesciunt, ab repellendus sit doloremque. Autem eligendi inventore voluptatem adipisci.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/card4.png" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>Göygöl turu</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quos quasi repudiandae obcaecati in voluptate corporis ea deserunt tenetur, qui accusantium odio tempora? Omnis consequuntur blanditiis voluptate, vitae deleniti harum.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/card1.png" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>SAH DAG</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, rerum iusto eum modi adipisci placeat eligendi at veniam odit quasi deleniti quam facere nostrum maiores excepturi sed suscipit doloribus iure?
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/card2.png" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>Yanar dağ</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa quaerat id. Non eius voluptatum officia voluptates. Enim, voluptatibus officia, iste exercitationem numquam doloremque id porro at dolores error dolor.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/card3.png" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>Quba gəzintisi</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam vitae corrupti, recusandae earum aspernatur reprehenderit obcaecati beatae eligendi nemo maiores cum voluptates consequatur sit iusto. Natus amet impedit totam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/card4.png" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>Göygöl turu</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas explicabo unde, numquam soluta laudantium architecto, deleniti animi necessitatibus ullam, dolores maiores tempore voluptates quia et incidunt aperiam quasi consequuntur eius.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- BLOG -->
+    <div class="blog">
+        <h1>Bloglarımız</h1>
+        <p>
+            Səyahət - səni nitqsiz qoyur, sonra hekayəçiyə çevirir. Hər turistin öz hekayəsi var. Turlarımızdan şirin xatirələri ehtiva edən bloqlarımızla tanış olun. Növbəti hekayəçi siz ola bilərsiniz!
+        </p>
+
+        <div class="blog-img">
+            <div class="blog-card"><img src="img/blog.png" alt=""></div>
+            <div class="blog-card"><img src="img/blog.png" alt=""></div>
+            <div class="blog-card"><img src="img/blog.png" alt=""></div>
+        </div>
+
+        <a href="#">Hamsına baxın</a>
+    </div>
+
+
+    <!-- CONTACT -->
+    <div class="contact">
+        <div class="contact-content">
+            <form action="">
+                <h5>BIZIMLE ELAQE</h5>
+                <label for="name">Ad, Soyad</label><br>
+                <input type="text" id="name"><br>
+                <label for="phone">Telefon</label><br>
+                <input type="text" id="phone"><br>
+                <label for="mail">e-Mail</label><br>
+                <input type="text" id="mail">
+            </form>
+            <a href="#">Gonder</a>
+        </div>
+
+        <div class="contact-img">
+            <img src="img/contact.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="home.js"></script>
+</body>
+</html>
